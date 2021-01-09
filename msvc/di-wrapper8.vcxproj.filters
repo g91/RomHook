@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectInput8">
+      <UniqueIdentifier>{0323d2b7-c8c7-457c-bd15-b812438bd448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{22ff99c6-6caf-4244-bc01-2a5302099641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EASTL">
+      <UniqueIdentifier>{6aff8085-663b-4fab-8fbd-ba2742bb6803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BC2">
+      <UniqueIdentifier>{b2c0473e-3b49-4e13-882d-14842ce83c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti">
+      <UniqueIdentifier>{b57bf685-09c6-4fe5-92c8-8f8c7a981887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nexus">
+      <UniqueIdentifier>{2f13e9e0-936b-41b6-8d99-56e9e2c7f5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RoleData">
+      <UniqueIdentifier>{886366ba-b98c-4464-907d-70758fe4eeba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dinput.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\di_wrap.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionCheck.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="EASTL.h">
+      <Filter>EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>BC2</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskSerial.h">
+      <Filter>Anti</Filter>
+    </ClInclude>
+    <ClInclude Include="Anti.h">
+      <Filter>BC2</Filter>
+    </ClInclude>
+    <ClInclude Include="buildnumber.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlineCheck.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>BC2</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\CampStatute.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\ObjectStruct.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\ObjectStructEx.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\RoleAttr.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\RoleBaseDef.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\RoleBaseInc.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\RoleData.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleData\RoleDataEx.h">
+      <Filter>RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="CVMTHook.h">
+      <Filter>BC2</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginCheck.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="Logger.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="VersionCheck.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\hashtable.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\red_black_tree.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\string.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\allocator.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\assert.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="EASTL\fixed_pool.cpp">
+      <Filter>EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>BC2</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskSerial.cpp">
+      <Filter>Anti</Filter>
+    </ClCompile>
+    <ClCompile Include="Anti.cpp">
+      <Filter>BC2</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineCheck.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>BC2</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginCheck.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="di-wrapper.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RoleData\RD_Check.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Event.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_ItemProc.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_NetFunction.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Normal.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Save.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Script.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Search.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Setting.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_STFunc.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_Utility.inl">
+      <Filter>RoleData</Filter>
+    </None>
+    <None Include="RoleData\RD_ValueCal.inl">
+      <Filter>RoleData</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[ToolsLib.vcproj]
+SCC_Aux_Path = "\\fs1\SourceSafe\Sourcesafe"
+SCC_Project_Name = "$/Other/ToolsLib.root/ToolsLib/ToolsLib", AKLAAAAA

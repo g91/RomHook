@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{643eb98c-24ae-42b8-b744-3d4bc1a6a4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\BaseFunction">
+      <UniqueIdentifier>{8bed94bf-dae5-4b2b-bc54-0ff676c5c45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CrashRpt.lib">
+      <UniqueIdentifier>{da2ea4f9-3e7a-44ff-9a6b-55c0d2d20844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CutString">
+      <UniqueIdentifier>{0959d765-fe10-40b8-890a-5212fec1a19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\DBStructTransfer">
+      <UniqueIdentifier>{b5fd815e-3084-4b3f-a111-e494b18ea9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\DebugLog">
+      <UniqueIdentifier>{db377dd8-216d-40e0-ae58-5d97d287c078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\FileBase">
+      <UniqueIdentifier>{e8cf6808-5513-4a25-a5ff-5d5646c51b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\FunctionSchedular">
+      <UniqueIdentifier>{d0af8cab-6eb2-4e20-8d42-49a7b408047f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\IniFile">
+      <UniqueIdentifier>{588fab92-288d-473f-ad6b-18d5aa89ba88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LUA">
+      <UniqueIdentifier>{f323f7ff-30e7-438b-aba1-8d3cec5a9bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LUA\MyVM">
+      <UniqueIdentifier>{92eb30d1-3b1d-4d17-842e-185437d01f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LUA\LuaSrc">
+      <UniqueIdentifier>{9d2817ea-fd0e-4287-b499-dce7f1a5bef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LUA\LuaWrapper">
+      <UniqueIdentifier>{38e20c75-2ac3-4674-b0cb-0838c05ac4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LUA\Debugger">
+      <UniqueIdentifier>{fe26747d-0f02-43c3-af3c-4e24252e927f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\MyAlloc">
+      <UniqueIdentifier>{60ee8a52-e0df-4d59-b95f-2c9a3acf0394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\MapAreaManagement">
+      <UniqueIdentifier>{7f45bd81-9b0f-4e46-ab16-af7c52d31c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\MyError">
+      <UniqueIdentifier>{8db7c720-ef52-41a1-a83e-7855140f7bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ObjectDataBaseFile">
+      <UniqueIdentifier>{b0f943fd-ddbf-4043-a2af-102f7f552549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\NetBridge">
+      <UniqueIdentifier>{4caf79dd-a315-4422-99b9-844ade419fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\NetBridge\Asio">
+      <UniqueIdentifier>{bdfa1086-df86-4531-a3ef-2fcaacd3693b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ReaderClass">
+      <UniqueIdentifier>{164ee1de-9c5e-4a6a-a1bc-6cb8b34de889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\RecycleBin">
+      <UniqueIdentifier>{c5cd14c5-cebf-48d1-b7df-2e45a55501bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SimpleSchedular">
+      <UniqueIdentifier>{d994c762-9a05-424a-ada0-b69d3c2f58bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Singleton">
+      <UniqueIdentifier>{91a25a38-77de-434f-8f18-c800fde66b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SmallObj">
+      <UniqueIdentifier>{ec24172b-e7ff-49bc-9666-56c196e92e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Lzo">
+      <UniqueIdentifier>{a3d2d088-115c-473e-9030-b7e217bb74a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\outputmsg">
+      <UniqueIdentifier>{df7ea85d-639c-4306-8ea7-dd729d5d2f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Zip">
+      <UniqueIdentifier>{f690c9d7-8fbc-455c-930e-df9c59a5a1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\PacketManage">
+      <UniqueIdentifier>{701c9ce9-ee0b-4ba4-b8a2-241a1cdb2b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\MD5">
+      <UniqueIdentifier>{2d2e1886-d919-455e-8bfb-a747006678b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\MyHttpFile">
+      <UniqueIdentifier>{05caff4e-6e0c-4e66-a5ea-bf25751af5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\luabind">
+      <UniqueIdentifier>{e754fe63-0c99-4cc2-86ef-c3907e1433f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\luabind\luabind">
+      <UniqueIdentifier>{20b07b8c-077f-452a-8643-3bb57c294c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\luabind\luabind\detail">
+      <UniqueIdentifier>{ebbb9cba-0e48-49d7-b18c-6797818903fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\luabind\src">
+      <UniqueIdentifier>{fdbdbe8f-7c4f-4c43-b5eb-6c5f93ed32a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\RemotetableInput">
+      <UniqueIdentifier>{da783bb0-f1de-49f6-85b3-630618676568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CPU_Usage">
+      <UniqueIdentifier>{94f59a61-44cd-4f2e-ae1f-fa22b10e74b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\BugTrap">
+      <UniqueIdentifier>{47e69982-226d-44dd-a6b8-ef6cb8fef6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LeakDetector">
+      <UniqueIdentifier>{f1cfabd1-69c7-41fd-8086-0cb9b0b3e435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CreateDump">
+      <UniqueIdentifier>{dc86a15b-fe8a-4383-b306-ac521d1e933f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\NetBridgeFileTransfer">
+      <UniqueIdentifier>{4009830c-1894-4b94-aab6-cd971c5fd6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\bcrypt">
+      <UniqueIdentifier>{01c515c7-5904-4ea9-adad-162148682ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="controllerclient">
+      <UniqueIdentifier>{73baf9dc-17e1-415c-a082-891b7fbce941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileVersion">
+      <UniqueIdentifier>{9e10dba6-e783-42bd-8a1c-5897b83ac9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrashProcess">
+      <UniqueIdentifier>{c76d91a9-9fd2-4533-867a-aba3698f3500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StackWalker">
+      <UniqueIdentifier>{69bab763-cb9c-4bc4-9a1a-2e35bd514b55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tools\MyBaseInc.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MyDebug.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MyTypeDef.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\basefunction\BaseFunction.h">
+      <Filter>Tools\BaseFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\cutstring\CutString.h">
+      <Filter>Tools\CutString</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\DBStruct\DBStructTransfer.h">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\DBStruct\DBTransferClass.h">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dbstruct\RunInThreadClass.h">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\DBStruct\SqlBaseClass.h">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\debuglog\errormessage.h">
+      <Filter>Tools\DebugLog</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\debuglog\logfile.h">
+      <Filter>Tools\DebugLog</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\filebase\FileBase.h">
+      <Filter>Tools\FileBase</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\functionschedular\functionschedular.h">
+      <Filter>Tools\FunctionSchedular</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\inifile\IniFile.h">
+      <Filter>Tools\IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\myvm\lua_vmclass.h">
+      <Filter>Tools\LUA\MyVM</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lapi.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lauxlib.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lcode.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\ldebug.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\ldo.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lfunc.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lgc.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\llex.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\llimits.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lmem.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lobject.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lopcodes.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lparser.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lstate.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lstring.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\ltable.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\ltm.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lua.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luaconf.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lualib.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lundump.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lvm.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\lzio.h">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luawrapper\LuaFunction.h">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luawrapper\luaStack.h">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luawrapper\LuaVariant.h">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luawrapper\LuaWrap.h">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\luawrapper\Support_Lua.h">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\debugger\LuaDebugger.h">
+      <Filter>Tools\LUA\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lua\debugger\PG_LuaDebugger.h">
+      <Filter>Tools\LUA\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\malloc\MyAlloc.h">
+      <Filter>Tools\MyAlloc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\mapareamanagement\MyMapAreaManagement.h">
+      <Filter>Tools\MapAreaManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\myerror\MyError.h">
+      <Filter>Tools\MyError</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\objectdatafile\ObjectDataBaseFile.h">
+      <Filter>Tools\ObjectDataBaseFile</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\BufferManger.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_ASIO.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_Base.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_Collections.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_Define.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_EventObj.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_IOCP.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\NetBridge_Struct.h">
+      <Filter>Tools\NetBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\Asio\IMyAsio.h">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\Asio\MyAsioBase.h">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\Asio\MyAsioBuffer.h">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netbridge\Asio\MyAsioDef.h">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\readerclass\CreateDBCmdClass.h">
+      <Filter>Tools\ReaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\readerclass\DbSqlExecClass.h">
+      <Filter>Tools\ReaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\readerclass\ReaderClass.h">
+      <Filter>Tools\ReaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\recyclebin\recyclebin.h">
+      <Filter>Tools\RecycleBin</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\simpleschedular\SimpleSchedular.h">
+      <Filter>Tools\SimpleSchedular</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\singleton\singleton.h">
+      <Filter>Tools\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\smallobj\SmallObj.h">
+      <Filter>Tools\SmallObj</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\smallobj\StaticFlag.h">
+      <Filter>Tools\SmallObj</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\smallobj\StaticString.h">
+      <Filter>Tools\SmallObj</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\smallobj\StaticVector.h">
+      <Filter>Tools\SmallObj</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lzo\lzo1x.h">
+      <Filter>Tools\Lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\lzo\lzoconf.h">
+      <Filter>Tools\Lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\outputmsg\BOutputMsgClass.h">
+      <Filter>Tools\outputmsg</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\outputmsg\IOutputMsg.h">
+      <Filter>Tools\outputmsg</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\outputmsg\OutputMsgClass.h">
+      <Filter>Tools\outputmsg</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Zip\unzip.h">
+      <Filter>Tools\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Zip\zip.h">
+      <Filter>Tools\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MD5\md5.h">
+      <Filter>Tools\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MD5\Mymd5.h">
+      <Filter>Tools\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MyHttpFile\MyHttpFile.h">
+      <Filter>Tools\MyHttpFile</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\adopt_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\back_reference.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\back_reference_fwd.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\class.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\class_info.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\config.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\container_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\copy_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\dependency_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\discard_result_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\error.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\exception_handler.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\from_stack.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\function.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\get_pointer.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\handle.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\iterator_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\lua_include.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\luabind.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\make_function.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\nil.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\object.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\open.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\operator.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\out_value_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\prefix.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\raw_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\return_reference_to_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\scope.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\tag_function.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\value_wrapper.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\weak_ref.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\wrapper_base.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\yield_policy.hpp">
+      <Filter>Tools\luabind\luabind</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\calc_arity.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\call.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\call_function.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\call_member.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\call_operator_iterate.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\class_cache.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\class_registry.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\class_rep.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\compute_score.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\construct_rep.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\constructor.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\conversion_storage.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\convert_to_lua.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\debug.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\decorate_type.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\deduce_signature.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\enum_maker.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\find_best_match.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\format_signature.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\garbage_collector.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\get_overload_signature.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\get_signature.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\has_get_pointer.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\implicit_cast.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\is_indirect_const.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\link_compatibility.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\method_rep.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\most_derived.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\object_call.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\object_funs.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\object_rep.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\open.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\operator_id.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\other.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\overload_rep.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\overload_rep_base.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\pcall.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\pointee_sizeof.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\pointee_typeid.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\policy.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\primitives.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\property.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\ref.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\signature_match.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\stack_utils.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\typetraits.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\luabind\luabind\detail\yes_no.hpp">
+      <Filter>Tools\luabind\luabind\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\RemotetableInput\RemotableInput.h">
+      <Filter>Tools\RemotetableInput</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\CPU_Usage\CpuUsage.h">
+      <Filter>Tools\CPU_Usage</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\CPU_Usage\PerfCounters.h">
+      <Filter>Tools\CPU_Usage</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\BugTrap\BTAtlWindow.h">
+      <Filter>Tools\BugTrap</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\BugTrap\BTMfcWindow.h">
+      <Filter>Tools\BugTrap</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\BugTrap\BTTrace.h">
+      <Filter>Tools\BugTrap</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\BugTrap\BugTrap.h">
+      <Filter>Tools\BugTrap</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\LeakDetector\vld.h">
+      <Filter>Tools\LeakDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\LeakDetector\vldapi.h">
+      <Filter>Tools\LeakDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\CreateDump\CreateDump.h">
+      <Filter>Tools\CreateDump</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\NetBridgeFileTransfer\NetBridgeFileTransfer.h">
+      <Filter>Tools\NetBridgeFileTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\bcrypt\crypt_blowfish.h">
+      <Filter>Tools\bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\bcrypt\crypt_gensalt.h">
+      <Filter>Tools\bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\bcrypt\ow-crypt.h">
+      <Filter>Tools\bcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\controllerclient\ControllerClient.h">
+      <Filter>controllerclient</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\controllerclient\PG_Controller.h">
+      <Filter>controllerclient</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\fileversion\FileVersion.h">
+      <Filter>FileVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\stackwalker\StackWalker.h">
+      <Filter>StackWalker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tools\basefunction\BaseFunction.cpp">
+      <Filter>Tools\BaseFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\cutstring\CutString.cpp">
+      <Filter>Tools\CutString</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\DBStruct\DBTransferClass.cpp">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\dbstruct\RunInThreadClass.cpp">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\DBStruct\SqlBaseClass.cpp">
+      <Filter>Tools\DBStructTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\debuglog\errormessage.cpp">
+      <Filter>Tools\DebugLog</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\debuglog\logfile.cpp">
+      <Filter>Tools\DebugLog</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\filebase\FileBase.cpp">
+      <Filter>Tools\FileBase</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\functionschedular\functionschedular.cpp">
+      <Filter>Tools\FunctionSchedular</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\inifile\IniFile.cpp">
+      <Filter>Tools\IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\myvm\lua_vmclass.cpp">
+      <Filter>Tools\LUA\MyVM</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lapi.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lauxlib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lbaselib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lcode.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ldblib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ldebug.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ldo.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ldump.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lfunc.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lgc.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\linit.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\liolib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\llex.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lmathlib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lmem.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\loadlib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lobject.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lopcodes.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\loslib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lparser.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lstate.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lstring.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lstrlib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ltable.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ltablib.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ltests.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\ltm.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lua.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\luac.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lundump.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lvm.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\lzio.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\print.c">
+      <Filter>Tools\LUA\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\luawrapper\luaStack.cpp">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\luawrapper\LuaWrap.cpp">
+      <Filter>Tools\LUA\LuaWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\lua\debugger\LuaDebugger.cpp">
+      <Filter>Tools\LUA\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\malloc\MyAlloc.cpp">
+      <Filter>Tools\MyAlloc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\mapareamanagement\MyMapAreaManagement.cpp">
+      <Filter>Tools\MapAreaManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\myerror\MyError.cpp">
+      <Filter>Tools\MyError</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\BufferManger.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_ASIO.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_Base.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_Define.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_EventObj.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_IOCP.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\NetBridge_Struct.cpp">
+      <Filter>Tools\NetBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\Asio\IMyAsio.cpp">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netbridge\Asio\MyAsioBase.cpp">
+      <Filter>Tools\NetBridge\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\readerclass\DbSqlExecClass.cpp">
+      <Filter>Tools\ReaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\smallobj\SmallObj.cpp">
+      <Filter>Tools\SmallObj</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\outputmsg\BOutputMsgClass.cpp">
+      <Filter>Tools\outputmsg</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\outputmsg\OutputMsgClass.cpp">
+      <Filter>Tools\outputmsg</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Zip\unzip.cpp">
+      <Filter>Tools\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Zip\zip.cpp">
+      <Filter>Tools\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\MD5\md5.cpp">
+      <Filter>Tools\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\MD5\Mymd5.cpp">
+      <Filter>Tools\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\MyHttpFile\MyHttpFile.cpp">
+      <Filter>Tools\MyHttpFile</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\class.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\class_info.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\class_registry.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\class_rep.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\create_class.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\error.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\exception_handler.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\find_best_match.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\function.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\implicit_cast.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\link_compatibility.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\object_rep.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\open.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\overload_rep.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\pcall.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\ref.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\scope.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\stack_content_by_name.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\weak_ref.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\luabind\src\wrapper_base.cpp">
+      <Filter>Tools\luabind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\RemotetableInput\RemotableInput.cpp">
+      <Filter>Tools\RemotetableInput</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\CPU_Usage\CpuUsage.cpp">
+      <Filter>Tools\CPU_Usage</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\CreateDump\CreateDump.cpp">
+      <Filter>Tools\CreateDump</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\NetBridgeFileTransfer\NetBridgeFileTransfer.cpp">
+      <Filter>Tools\NetBridgeFileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\bcrypt\crypt_blowfish.cpp">
+      <Filter>Tools\bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\bcrypt\crypt_gensalt.cpp">
+      <Filter>Tools\bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\bcrypt\wrapper.cpp">
+      <Filter>Tools\bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\controllerclient\ControllerClient.cpp">
+      <Filter>controllerclient</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\fileversion\FileVersion.cpp">
+      <Filter>FileVersion</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\crashprocess\CrashProcess.cpp">
+      <Filter>CrashProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\stackwalker\StackWalker.cpp">
+      <Filter>StackWalker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="tools\lzo\lzo.lib">
+      <Filter>Tools\Lzo</Filter>
+    </Library>
+    <Library Include="tools\LeakDetector\vld.lib">
+      <Filter>Tools\LeakDetector</Filter>
+    </Library>
+    <Library Include="tools\LeakDetector\vldmt.lib">
+      <Filter>Tools\LeakDetector</Filter>
+    </Library>
+    <Library Include="tools\LeakDetector\vldmtdll.lib">
+      <Filter>Tools\LeakDetector</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.dll">
+      <Filter>Tools\CrashRpt.lib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.h">
+      <Filter>Tools\CrashRpt.lib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.lib">
+      <Filter>Tools\CrashRpt.lib</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrap.dll">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrap.lib">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapN.dll">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapN.lib">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapU.dll">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapU.lib">
+      <Filter>Tools\BugTrap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashprocess\CrashProcess.h">
+      <Filter>CrashProcess</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

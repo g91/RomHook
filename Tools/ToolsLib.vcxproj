@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug - Unicode|Win32">
+      <Configuration>Debug - Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug IOCP Remote|Win32">
+      <Configuration>Debug IOCP Remote</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_IOCP_Dll_Export|Win32">
+      <Configuration>Debug_IOCP_Dll_Export</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Moliyo|Win32">
+      <Configuration>Debug_Moliyo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_My_Mem_New|Win32">
+      <Configuration>Debug_My_Mem_New</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoCrashProcess|Win32">
+      <Configuration>Debug_NoCrashProcess</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoCrashRpt|Win32">
+      <Configuration>Debug_NoCrashRpt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseRemote|Win32">
+      <Configuration>ReleaseRemote</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Moliyo|Win32">
+      <Configuration>Release_Moliyo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MyNew|Win32">
+      <Configuration>Release_MyNew</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoCrashProcess|Win32">
+      <Configuration>Release_NoCrashProcess</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoCrashRpt|Win32">
+      <Configuration>Release_NoCrashRpt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoRuMemory|Win32">
+      <Configuration>Release_NoRuMemory</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C5FE08B-F36A-4655-8247-2E11FABD7722}</ProjectGuid>
+    <RootNamespace>ToolsLib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Moliyo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Moliyo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRemote|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug IOCP Remote|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_IOCP_Dll_Export|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_My_Mem_New|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Moliyo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Moliyo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRemote|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug IOCP Remote|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_IOCP_Dll_Export|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_My_Mem_New|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27130.2010</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_My_Mem_New|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_IOCP_Dll_Export|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug IOCP Remote|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRemote|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Unicode|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Moliyo|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Moliyo|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_LIB;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;C:\SDK;C:\SDK\curl-7.16.0\include;C:\SDK\LUA;C:\SDK\Microsoft DirectX SDK (June 2010)\Include;C:\SDK\NVIDIA DDS Utilities\LIBS\inc;C:\SDK\Xercesc\include;C:\SDK\Vivox\core\include;C:\SDK\boost;C:\SDK\LUA\lua;C:\SDK\LUA\luabind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=0;_SECURE_SCL_THROWS=0;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_My_Mem_New|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_MY_MEM_NEW_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;User32.lib;Psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_IOCP_Dll_Export|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_MY_MEM_NEW_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_LIB;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug IOCP Remote|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseRemote|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)ToolsLib.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Moliyo|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_MY_MEM_NEW_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Moliyo|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)ToolsLib.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_MY_MEM_NEW_;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_LIB;_SECURE_SCL=1;_SECURE_SCL_THROWS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>shlwapi.lib;Winmm.lib;user32.lib;Advapi32.lib;Psapi.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="tools\basefunction\BaseFunction.h" />
+    <ClInclude Include="tools\bcrypt\crypt_blowfish.h" />
+    <ClInclude Include="tools\bcrypt\crypt_gensalt.h" />
+    <ClInclude Include="tools\bcrypt\ow-crypt.h" />
+    <ClInclude Include="tools\BugTrap\BTAtlWindow.h" />
+    <ClInclude Include="tools\BugTrap\BTMfcWindow.h" />
+    <ClInclude Include="tools\BugTrap\BTTrace.h" />
+    <ClInclude Include="tools\BugTrap\BugTrap.h" />
+    <ClInclude Include="tools\controllerclient\ControllerClient.h" />
+    <ClInclude Include="tools\controllerclient\PG_Controller.h" />
+    <ClInclude Include="tools\CPU_Usage\CpuUsage.h" />
+    <ClInclude Include="tools\CPU_Usage\PerfCounters.h" />
+    <CustomBuild Include="tools\crashprocess\CrashProcess.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClInclude Include="tools\CreateDump\CreateDump.h" />
+    <ClInclude Include="tools\cutstring\CutString.h" />
+    <ClInclude Include="tools\DBStruct\DBStructTransfer.h" />
+    <ClInclude Include="tools\DBStruct\DBTransferClass.h" />
+    <ClInclude Include="tools\dbstruct\RunInThreadClass.h" />
+    <ClInclude Include="tools\DBStruct\SqlBaseClass.h" />
+    <ClInclude Include="tools\debuglog\errormessage.h" />
+    <ClInclude Include="tools\debuglog\logfile.h" />
+    <ClInclude Include="tools\filebase\FileBase.h" />
+    <ClInclude Include="tools\fileversion\FileVersion.h" />
+    <ClInclude Include="tools\functionschedular\functionschedular.h" />
+    <ClInclude Include="tools\inifile\IniFile.h" />
+    <ClInclude Include="tools\LeakDetector\vld.h" />
+    <ClInclude Include="tools\LeakDetector\vldapi.h" />
+    <ClInclude Include="tools\luabind\luabind\adopt_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\back_reference.hpp" />
+    <ClInclude Include="tools\luabind\luabind\back_reference_fwd.hpp" />
+    <ClInclude Include="tools\luabind\luabind\class.hpp" />
+    <ClInclude Include="tools\luabind\luabind\class_info.hpp" />
+    <ClInclude Include="tools\luabind\luabind\config.hpp" />
+    <ClInclude Include="tools\luabind\luabind\container_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\copy_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\dependency_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\calc_arity.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\call.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\call_function.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\call_member.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\call_operator_iterate.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\class_cache.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\class_registry.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\class_rep.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\compute_score.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\constructor.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\construct_rep.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\conversion_storage.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\convert_to_lua.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\debug.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\decorate_type.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\deduce_signature.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\enum_maker.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\find_best_match.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\format_signature.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\garbage_collector.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\get_overload_signature.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\get_signature.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\has_get_pointer.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\implicit_cast.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\is_indirect_const.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\link_compatibility.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\method_rep.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\most_derived.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\object_call.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\object_funs.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\object_rep.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\open.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\operator_id.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\other.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\overload_rep.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\overload_rep_base.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\pcall.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\pointee_sizeof.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\pointee_typeid.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\primitives.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\property.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\ref.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\signature_match.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\stack_utils.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\typetraits.hpp" />
+    <ClInclude Include="tools\luabind\luabind\detail\yes_no.hpp" />
+    <ClInclude Include="tools\luabind\luabind\discard_result_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\error.hpp" />
+    <ClInclude Include="tools\luabind\luabind\exception_handler.hpp" />
+    <ClInclude Include="tools\luabind\luabind\from_stack.hpp" />
+    <ClInclude Include="tools\luabind\luabind\function.hpp" />
+    <ClInclude Include="tools\luabind\luabind\get_pointer.hpp" />
+    <ClInclude Include="tools\luabind\luabind\handle.hpp" />
+    <ClInclude Include="tools\luabind\luabind\iterator_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\luabind.hpp" />
+    <ClInclude Include="tools\luabind\luabind\lua_include.hpp" />
+    <ClInclude Include="tools\luabind\luabind\make_function.hpp" />
+    <ClInclude Include="tools\luabind\luabind\nil.hpp" />
+    <ClInclude Include="tools\luabind\luabind\object.hpp" />
+    <ClInclude Include="tools\luabind\luabind\open.hpp" />
+    <ClInclude Include="tools\luabind\luabind\operator.hpp" />
+    <ClInclude Include="tools\luabind\luabind\out_value_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\prefix.hpp" />
+    <ClInclude Include="tools\luabind\luabind\raw_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\return_reference_to_policy.hpp" />
+    <ClInclude Include="tools\luabind\luabind\scope.hpp" />
+    <ClInclude Include="tools\luabind\luabind\tag_function.hpp" />
+    <ClInclude Include="tools\luabind\luabind\value_wrapper.hpp" />
+    <ClInclude Include="tools\luabind\luabind\weak_ref.hpp" />
+    <ClInclude Include="tools\luabind\luabind\wrapper_base.hpp" />
+    <ClInclude Include="tools\luabind\luabind\yield_policy.hpp" />
+    <ClInclude Include="tools\lua\debugger\LuaDebugger.h" />
+    <ClInclude Include="tools\lua\debugger\PG_LuaDebugger.h" />
+    <ClInclude Include="tools\lua\lapi.h" />
+    <ClInclude Include="tools\lua\lauxlib.h" />
+    <ClInclude Include="tools\lua\lcode.h" />
+    <ClInclude Include="tools\lua\ldebug.h" />
+    <ClInclude Include="tools\lua\ldo.h" />
+    <ClInclude Include="tools\lua\lfunc.h" />
+    <ClInclude Include="tools\lua\lgc.h" />
+    <ClInclude Include="tools\lua\llex.h" />
+    <ClInclude Include="tools\lua\llimits.h" />
+    <ClInclude Include="tools\lua\lmem.h" />
+    <ClInclude Include="tools\lua\lobject.h" />
+    <ClInclude Include="tools\lua\lopcodes.h" />
+    <ClInclude Include="tools\lua\lparser.h" />
+    <ClInclude Include="tools\lua\lstate.h" />
+    <ClInclude Include="tools\lua\lstring.h" />
+    <ClInclude Include="tools\lua\ltable.h" />
+    <ClInclude Include="tools\lua\ltm.h" />
+    <ClInclude Include="tools\lua\lua.h" />
+    <ClInclude Include="tools\lua\luaconf.h" />
+    <ClInclude Include="tools\lua\lualib.h" />
+    <ClInclude Include="tools\lua\luawrapper\LuaFunction.h" />
+    <ClInclude Include="tools\lua\luawrapper\luaStack.h" />
+    <ClInclude Include="tools\lua\luawrapper\LuaVariant.h" />
+    <ClInclude Include="tools\lua\luawrapper\LuaWrap.h" />
+    <ClInclude Include="tools\lua\luawrapper\Support_Lua.h" />
+    <ClInclude Include="tools\lua\lundump.h" />
+    <ClInclude Include="tools\lua\lvm.h" />
+    <ClInclude Include="tools\lua\lzio.h" />
+    <ClInclude Include="tools\lua\myvm\lua_vmclass.h" />
+    <ClInclude Include="tools\lzo\lzo1x.h" />
+    <ClInclude Include="tools\lzo\lzoconf.h" />
+    <ClInclude Include="tools\malloc\MyAlloc.h" />
+    <ClInclude Include="tools\mapareamanagement\MyMapAreaManagement.h" />
+    <ClInclude Include="tools\MD5\md5.h" />
+    <ClInclude Include="tools\MD5\Mymd5.h" />
+    <ClInclude Include="tools\MyBaseInc.h" />
+    <ClInclude Include="tools\MyDebug.h" />
+    <ClInclude Include="tools\myerror\MyError.h" />
+    <ClInclude Include="tools\MyHttpFile\MyHttpFile.h" />
+    <ClInclude Include="tools\MyTypeDef.h" />
+    <ClInclude Include="tools\NetBridgeFileTransfer\NetBridgeFileTransfer.h" />
+    <ClInclude Include="tools\netbridge\Asio\IMyAsio.h" />
+    <ClInclude Include="tools\netbridge\Asio\MyAsioBase.h" />
+    <ClInclude Include="tools\netbridge\Asio\MyAsioBuffer.h" />
+    <ClInclude Include="tools\netbridge\Asio\MyAsioDef.h" />
+    <ClInclude Include="tools\netbridge\BufferManger.h" />
+    <ClInclude Include="tools\netbridge\NetBridge.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_ASIO.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_Base.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_Collections.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_Define.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_EventObj.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_IOCP.h" />
+    <ClInclude Include="tools\netbridge\NetBridge_Struct.h" />
+    <ClInclude Include="tools\objectdatafile\ObjectDataBaseFile.h" />
+    <ClInclude Include="tools\outputmsg\BOutputMsgClass.h" />
+    <ClInclude Include="tools\outputmsg\IOutputMsg.h" />
+    <ClInclude Include="tools\outputmsg\OutputMsgClass.h" />
+    <ClInclude Include="tools\readerclass\CreateDBCmdClass.h" />
+    <ClInclude Include="tools\readerclass\DbSqlExecClass.h" />
+    <ClInclude Include="tools\readerclass\ReaderClass.h" />
+    <ClInclude Include="tools\recyclebin\recyclebin.h" />
+    <ClInclude Include="tools\RemotetableInput\RemotableInput.h" />
+    <ClInclude Include="tools\simpleschedular\SimpleSchedular.h" />
+    <ClInclude Include="tools\singleton\singleton.h" />
+    <ClInclude Include="tools\smallobj\SmallObj.h" />
+    <ClInclude Include="tools\smallobj\StaticFlag.h" />
+    <ClInclude Include="tools\smallobj\StaticString.h" />
+    <ClInclude Include="tools\smallobj\StaticVector.h" />
+    <ClInclude Include="tools\stackwalker\StackWalker.h" />
+    <ClInclude Include="tools\Zip\unzip.h" />
+    <ClInclude Include="tools\Zip\zip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tools\basefunction\BaseFunction.cpp" />
+    <ClCompile Include="tools\bcrypt\crypt_blowfish.cpp" />
+    <ClCompile Include="tools\bcrypt\crypt_gensalt.cpp" />
+    <ClCompile Include="tools\bcrypt\wrapper.cpp" />
+    <ClCompile Include="tools\controllerclient\ControllerClient.cpp" />
+    <ClCompile Include="tools\CPU_Usage\CpuUsage.cpp" />
+    <ClCompile Include="tools\crashprocess\CrashProcess.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tools\CreateDump\CreateDump.cpp" />
+    <ClCompile Include="tools\cutstring\CutString.cpp" />
+    <ClCompile Include="tools\DBStruct\DBTransferClass.cpp" />
+    <ClCompile Include="tools\dbstruct\RunInThreadClass.cpp" />
+    <ClCompile Include="tools\DBStruct\SqlBaseClass.cpp" />
+    <ClCompile Include="tools\debuglog\errormessage.cpp" />
+    <ClCompile Include="tools\debuglog\logfile.cpp" />
+    <ClCompile Include="tools\filebase\FileBase.cpp" />
+    <ClCompile Include="tools\fileversion\FileVersion.cpp" />
+    <ClCompile Include="tools\functionschedular\functionschedular.cpp" />
+    <ClCompile Include="tools\inifile\IniFile.cpp" />
+    <ClCompile Include="tools\luabind\src\class.cpp" />
+    <ClCompile Include="tools\luabind\src\class_info.cpp" />
+    <ClCompile Include="tools\luabind\src\class_registry.cpp" />
+    <ClCompile Include="tools\luabind\src\class_rep.cpp" />
+    <ClCompile Include="tools\luabind\src\create_class.cpp" />
+    <ClCompile Include="tools\luabind\src\error.cpp" />
+    <ClCompile Include="tools\luabind\src\exception_handler.cpp" />
+    <ClCompile Include="tools\luabind\src\find_best_match.cpp" />
+    <ClCompile Include="tools\luabind\src\function.cpp" />
+    <ClCompile Include="tools\luabind\src\implicit_cast.cpp" />
+    <ClCompile Include="tools\luabind\src\link_compatibility.cpp" />
+    <ClCompile Include="tools\luabind\src\object_rep.cpp" />
+    <ClCompile Include="tools\luabind\src\open.cpp" />
+    <ClCompile Include="tools\luabind\src\overload_rep.cpp" />
+    <ClCompile Include="tools\luabind\src\pcall.cpp" />
+    <ClCompile Include="tools\luabind\src\ref.cpp" />
+    <ClCompile Include="tools\luabind\src\scope.cpp" />
+    <ClCompile Include="tools\luabind\src\stack_content_by_name.cpp" />
+    <ClCompile Include="tools\luabind\src\weak_ref.cpp" />
+    <ClCompile Include="tools\luabind\src\wrapper_base.cpp" />
+    <ClCompile Include="tools\lua\debugger\LuaDebugger.cpp" />
+    <ClCompile Include="tools\lua\lapi.c" />
+    <ClCompile Include="tools\lua\lauxlib.c" />
+    <ClCompile Include="tools\lua\lbaselib.c" />
+    <ClCompile Include="tools\lua\lcode.c" />
+    <ClCompile Include="tools\lua\ldblib.c" />
+    <ClCompile Include="tools\lua\ldebug.c" />
+    <ClCompile Include="tools\lua\ldo.c" />
+    <ClCompile Include="tools\lua\ldump.c" />
+    <ClCompile Include="tools\lua\lfunc.c" />
+    <ClCompile Include="tools\lua\lgc.c" />
+    <ClCompile Include="tools\lua\linit.c" />
+    <ClCompile Include="tools\lua\liolib.c" />
+    <ClCompile Include="tools\lua\llex.c" />
+    <ClCompile Include="tools\lua\lmathlib.c" />
+    <ClCompile Include="tools\lua\lmem.c" />
+    <ClCompile Include="tools\lua\loadlib.c" />
+    <ClCompile Include="tools\lua\lobject.c" />
+    <ClCompile Include="tools\lua\lopcodes.c" />
+    <ClCompile Include="tools\lua\loslib.c" />
+    <ClCompile Include="tools\lua\lparser.c" />
+    <ClCompile Include="tools\lua\lstate.c" />
+    <ClCompile Include="tools\lua\lstring.c" />
+    <ClCompile Include="tools\lua\lstrlib.c" />
+    <ClCompile Include="tools\lua\ltable.c" />
+    <ClCompile Include="tools\lua\ltablib.c" />
+    <ClCompile Include="tools\lua\ltests.c" />
+    <ClCompile Include="tools\lua\ltm.c" />
+    <ClCompile Include="tools\lua\lua.c" />
+    <ClCompile Include="tools\lua\luac.c" />
+    <ClCompile Include="tools\lua\luawrapper\luaStack.cpp" />
+    <ClCompile Include="tools\lua\luawrapper\LuaWrap.cpp" />
+    <ClCompile Include="tools\lua\lundump.c" />
+    <ClCompile Include="tools\lua\lvm.c" />
+    <ClCompile Include="tools\lua\lzio.c" />
+    <ClCompile Include="tools\lua\myvm\lua_vmclass.cpp" />
+    <ClCompile Include="tools\lua\print.c" />
+    <ClCompile Include="tools\malloc\MyAlloc.cpp" />
+    <ClCompile Include="tools\mapareamanagement\MyMapAreaManagement.cpp" />
+    <ClCompile Include="tools\MD5\md5.cpp" />
+    <ClCompile Include="tools\MD5\Mymd5.cpp" />
+    <ClCompile Include="tools\myerror\MyError.cpp" />
+    <ClCompile Include="tools\MyHttpFile\MyHttpFile.cpp" />
+    <ClCompile Include="tools\NetBridgeFileTransfer\NetBridgeFileTransfer.cpp" />
+    <ClCompile Include="tools\netbridge\Asio\IMyAsio.cpp" />
+    <ClCompile Include="tools\netbridge\Asio\MyAsioBase.cpp" />
+    <ClCompile Include="tools\netbridge\BufferManger.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_ASIO.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_Base.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_Define.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_EventObj.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_IOCP.cpp" />
+    <ClCompile Include="tools\netbridge\NetBridge_Struct.cpp" />
+    <ClCompile Include="tools\outputmsg\BOutputMsgClass.cpp" />
+    <ClCompile Include="tools\outputmsg\OutputMsgClass.cpp" />
+    <ClCompile Include="tools\readerclass\DbSqlExecClass.cpp" />
+    <ClCompile Include="tools\RemotetableInput\RemotableInput.cpp" />
+    <ClCompile Include="tools\smallobj\SmallObj.cpp" />
+    <ClCompile Include="tools\stackwalker\StackWalker.cpp" />
+    <ClCompile Include="tools\Zip\unzip.cpp" />
+    <ClCompile Include="tools\Zip\zip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <CustomBuild Include="tools\BugTrap\BugTrap.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapN.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapU.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tools\BugTrap\BugTrap.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapN.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\BugTrap\BugTrapU.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_MyNew|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashProcess|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoRuMemory|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tools\crashrpt\CrashRpt.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoCrashRpt|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <Library Include="tools\LeakDetector\vld.lib" />
+    <Library Include="tools\LeakDetector\vldmt.lib" />
+    <Library Include="tools\LeakDetector\vldmtdll.lib" />
+    <Library Include="tools\lzo\lzo.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

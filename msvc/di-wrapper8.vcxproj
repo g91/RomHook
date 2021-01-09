@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{74EF46B7-6A39-4F97-ABB0-F1FB73C34195}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>diwrapper8</RootNamespace>
+    <ProjectName>NexusBC2</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>dinput8</TargetName>
+    <IntDir>$(ProjectName)\</IntDir>
+    <IncludePath>C:\sdk\Detours;C:\sdk\include;C:\sdk\boost1;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdk\Detours;C:\sdk\lib;C:\sdk\boost1\libs;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>dinput8</TargetName>
+    <IntDir>$(ProjectName)\</IntDir>
+    <IncludePath>C:\sdk\Detours;C:\sdk\include;C:\sdk\boost1;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdk\Detours;C:\sdk\lib;C:\sdk\boost1\libs;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DI_WRAPPER8;WIN32;_DEBUG;_WINDOWS;_USRDLL;DIWRAPPER8_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Rom\Code\Libraries\Rune Engine;C:\Rom\Code\Libraries\Rune Engine\Rune;C:\Rom\Code\Libraries\Rune Engine\Texture;C:\Rom\Code\Libraries\Rune Engine\Tools;C:\Rom\Code\Client\Rome\msvc\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>$(SolutionDir)..\dinput8.def</ModuleDefinitionFile>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>DI_WRAPPER8;WIN32;_WINDOWS;_USRDLL;DIWRAPPER8_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Rom\Code\Libraries\Rune Engine;C:\Rom\Code\Libraries\Rune Engine\Rune;C:\Rom\Code\Libraries\Rune Engine\Texture;C:\Rom\Code\Client\Rome\Tools\tools;C:\sdk\curl-7.16.0\include;D:\Project\ROM\Contrib\include;D:\Project\ROM\Contrib\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>$(SolutionDir)..\dinput8.def</ModuleDefinitionFile>
+      <AdditionalDependencies>RoleData.lib;detours.lib;ws2_32.lib;dxguid.lib;cprot.lib;ToolsLib.lib;libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Project\ROM\RoleData\release;..\depends\lib;C:\Rom\Code\Libraries\Rune Engine\Output;C:\Rom\Code\Client\Rome\Tools\Release;C:\sdk\curl-7.16.0\lib\Release;D:\Project\ROM\Contrib\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PreBuildEvent>
+      <Command>@echo off
+FOR /f "tokens=1,2,3 delims= " %%a IN ($(ProjectDir)buildnumber.h) DO (
+	set /a buildnum = %%c
+	set /a newbuild = %%c + 1
+)
+
+@echo. &gt; $(ProjectDir)buildnumber.h
+@echo #define BUILDNUM %newbuild% &gt; $(ProjectDir)buildnumber.h</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dinput.h" />
+    <ClInclude Include="..\di_wrap.h" />
+    <ClInclude Include="Anti.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="buildnumber.h" />
+    <ClInclude Include="CVMTHook.h" />
+    <ClInclude Include="detours.h" />
+    <ClInclude Include="DiskSerial.h" />
+    <ClInclude Include="EASTL.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="LoginCheck.h" />
+    <ClInclude Include="OnlineCheck.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RoleData\CampStatute.h" />
+    <ClInclude Include="RoleData\ObjectStruct.h" />
+    <ClInclude Include="RoleData\ObjectStructEx.h" />
+    <ClInclude Include="RoleData\RoleAttr.h" />
+    <ClInclude Include="RoleData\RoleBaseDef.h" />
+    <ClInclude Include="RoleData\RoleBaseInc.h" />
+    <ClInclude Include="RoleData\RoleData.h" />
+    <ClInclude Include="RoleData\RoleDataEx.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="VersionCheck.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="Anti.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="DiskSerial.cpp" />
+    <ClCompile Include="EASTL\allocator.cpp" />
+    <ClCompile Include="EASTL\assert.cpp" />
+    <ClCompile Include="EASTL\fixed_pool.cpp" />
+    <ClCompile Include="EASTL\hashtable.cpp" />
+    <ClCompile Include="EASTL\red_black_tree.cpp" />
+    <ClCompile Include="EASTL\string.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="LoginCheck.cpp" />
+    <ClCompile Include="OnlineCheck.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="VersionCheck.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="di-wrapper.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RoleData\RD_Check.inl" />
+    <None Include="RoleData\RD_Event.inl" />
+    <None Include="RoleData\RD_ItemProc.inl" />
+    <None Include="RoleData\RD_NetFunction.inl" />
+    <None Include="RoleData\RD_Normal.inl" />
+    <None Include="RoleData\RD_Save.inl" />
+    <None Include="RoleData\RD_Script.inl" />
+    <None Include="RoleData\RD_Search.inl" />
+    <None Include="RoleData\RD_Setting.inl" />
+    <None Include="RoleData\RD_STFunc.inl" />
+    <None Include="RoleData\RD_Utility.inl" />
+    <None Include="RoleData\RD_ValueCal.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
